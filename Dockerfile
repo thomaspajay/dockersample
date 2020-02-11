@@ -2,7 +2,9 @@ FROM nginx
 
 MAINTAINER ajay thomas "ajay@ey"
 
-ADD aj.html   ey.jpg  /usr/share/nginx/html/
+WORKDIR /usr/share/nginx/html/
+
+ADD . . 
 
 #CMD python /code/hello.py
 EXPOSE 80
