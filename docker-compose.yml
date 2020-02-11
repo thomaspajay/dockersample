@@ -1,0 +1,8 @@
+version:  '3.7'
+services: 
+ mysamp1: 
+  build: .
+  image: sampledocker2:v1
+  container_name: samplec2
+  ports: 
+   - "1249:80"
