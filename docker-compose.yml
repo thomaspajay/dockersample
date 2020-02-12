@@ -2,7 +2,7 @@ version:  '3.7'
 services: 
  mysamp1: 
   build: .
-  image: sampledocker2:v1
-  container_name: samplec2
+  image: atpsampleDocker:v1
+  container_name: atpDockerc
   ports: 
    - "1249:80"
